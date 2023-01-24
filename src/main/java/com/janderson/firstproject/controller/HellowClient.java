@@ -17,7 +17,7 @@ public class HellowClient {
     @GetMapping
     public List<Client> HellowClient() {
 
-        List listClient = new ArrayList<Client>();
+        List<Client> listClient = new ArrayList<Client>();
 
         Client n1 = new Client("Janderson", "Weller",20, "Manaus - AM", "034.568.982-12");
         Client n2 = new Client("João", "Silva",23, "Belém - PA", "024.346.932-21");
