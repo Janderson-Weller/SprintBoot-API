@@ -3,11 +3,11 @@ package com.janderson.firstproject.model;
 public class Product {
     private String name;
     private Double value;
-    private Double cod;
+    private Integer cod;
 
     public Product() {}
     
-    public Product(String name, Double cod, Double value) {
+    public Product(String name, Integer cod, Double value) {
         this.name = name;
         this.cod = cod;
         this.value = value;
@@ -29,11 +29,11 @@ public class Product {
         this.value = value;
     }
 
-    public Double getCod() {
+    public Integer getCod() {
         return this.cod;
     } 
 
-    public void setCod(Double cod) {
+    public void setCod(Integer cod) {
         this.cod = cod;
     }
 }
